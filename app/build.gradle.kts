@@ -48,9 +48,14 @@ dependencies {
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
+
     implementation("androidx.compose.runtime:runtime-livedata:1.11.1")
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+
+    implementation("androidx.compose.material13:material13:material13:1.4.0")
+    implementation("androidx.compose.material:material-icons-core:1.6.8")
+
     implementation(libs.androidx.compose.material3)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
